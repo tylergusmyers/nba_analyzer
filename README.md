@@ -17,10 +17,24 @@ Maybe this will help us think following the experts into high expense funds, whe
     4) Plot performance data insightfully against a players current salary
 
 ## How to Use // Code Structure
-
+Part 1:    
+    1) Download the CSV of top paid NBA players
+    2) Run Players through an API call to add ID's
+    3) Structure a DataFrame to include Player information in one DataFrame
+Part 2:
+    1) Run player IDs through an API to gather game data
+    2) Calculate a 'game score ratio' for each row in the DataFrame
+Part 3:
+    1) Clean the data to coordinate games across dates
+    2) Deal with missing games
+    3) Organize game scores by players in the same DataFrame
+Part 4)
+    1) Plot the values by Date
+    2) Each player has their own Y-value
 
 ## API's
-balldontlie
+Ball Don't Lie
+NBA Stats
 
 ## Instalation, Required Libraries, and Programs:
 JSON
